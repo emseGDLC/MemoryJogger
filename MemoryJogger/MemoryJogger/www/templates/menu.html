@@ -1,0 +1,73 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <!-- Copy from here to your own app -->
+  <ion-side-menu side="left" id="menu_wrapper" width="310">
+    <ion-header-bar class="bar-stable">
+      <div class="top_menu">
+        <div class="menu_link" menu-toggle="left">
+          <i class="ion ion-android-close"></i>
+        </div>
+        <div class="menu_link">
+          <img src="img/128.jpg">
+        </div>
+      </div>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close href="#/app/search">
+          Home
+        </ion-item>
+        <ion-item menu-close href="#/app/search">
+          Overview
+        </ion-item>
+        <ion-item menu-close href="#/app/browse">
+          Post liked
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Orders
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Profile
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Notifications
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Users
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Timeline
+        </ion-item>
+      </ion-list>
+    </ion-content>
+    <ion-footer-bar class="bar-stable">
+      <div class="top_menu">
+        <div class="menu_link">
+          <a href="#/app/browse">
+            <i class="ion ion-ios-gear-outline"></i>
+            Settings
+          </a>
+        </div>
+        <div class="menu_link">
+          <a href="#/app/logout">
+            <i class="ion ion-log-out"></i>
+            log out
+          </a>
+        </div>
+      </div>
+    </ion-footer-bar>
+  </ion-side-menu>
+  <!-- END copy here -->
+</ion-side-menus>

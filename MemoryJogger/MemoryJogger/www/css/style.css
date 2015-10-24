@@ -1,1 +1,115 @@
-/* Empty. Add your own CSS if you like */
+/* 
+	Custom Fonts 
+*/
+@font-face {
+  font-family: 'avenir';
+  src: url('../fonts/avenir-book.eot');
+  src: url('../fonts/avenir-book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/avenir-book.woff2') format('woff2'),
+       url('../fonts/avenir-book.woff') format('woff'),
+       url('../fonts/avenir-book.ttf') format('truetype'),
+       url('../fonts/avenir-book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'avenir-light';
+  src: url('../fonts/avenir-light.eot');
+  src: url('../fonts/avenir-light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/avenir-light.woff2') format('woff2'),
+       url('../fonts/avenir-light.woff') format('woff'),
+       url('../fonts/avenir-light.ttf') format('truetype'),
+       url('../fonts/avenir-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'avenir', sans-serif;
+}
+
+/* Hide scrolling bar */
+.scroll-bar-indicator { 
+  display: none;
+}
+
+/* 
+  Menu Styles 
+*/
+.menu .bar-header .top_menu {
+  margin-top: 1.5em;
+}
+
+.top_menu {
+  width: 92%;
+  margin: 0 auto;
+}
+.top_menu .menu_link {
+  float: left;
+  margin-right: 11em;
+  width: 3.8em;
+}
+.top_menu .menu_link:last-child  {
+  margin-right: 0px;
+}
+a.item-content {
+  font-family: 'avenir', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #bcbcd4 !important;
+  margin-top: .1em;
+}
+.menu_link a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+.menu_link a i {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+  opacity: .5;
+  margin-bottom: .4em;
+  color: #aaaacd;
+}
+.menu .bar-header .menu_link i {
+  font-size: 2.5em;
+  color: #aaaacd;
+  opacity: .5;
+}
+.menu_link img {
+  border-radius: 70px;
+  width: 80%;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+/*
+	Modified Ionic Styles
+*/
+.menu {
+	background: #7271ab url(../img/nav_bg.png) no-repeat;
+}
+#menu_wrapper .item,
+#menu_wrapper .item-complex .item-content, 
+#menu_wrapper .item-radio .item-content,
+#menu_wrapper .bar.bar-stable,
+#menu_wrapper .title {
+	background: none;
+	border: none;
+	border-style: none;
+	color: #fff;
+}
+#menu_wrapper h1.title {
+	font-family: 'avenir', sans-serif;
+	font-style: 22px;
+}
+.bar.bar-stable.bar-footer {
+  height: 6em;
+}
+.list {
+  margin-top: 3em;
+}
