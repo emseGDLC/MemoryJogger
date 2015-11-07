@@ -215,6 +215,15 @@ z-index: 2;
         margin: 30px auto 0;
         box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
       }
+         #profile-imageB {
+        display: block;
+        /*border-radius: 100px;*/
+        border: 1px solid #fff;
+        width: 128px;
+        height: 128px;
+        margin: 30px auto 0;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+      }
 
       .list-item-content {
         padding: 5px;
