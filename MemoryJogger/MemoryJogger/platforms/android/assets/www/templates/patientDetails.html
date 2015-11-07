@@ -1,5 +1,50 @@
-﻿<ion-view view-title="Patient Details">
+﻿<ion-view view-title="Patient Details" ng-controller="patientDetailsCtrl">
+
     <ion-content>
-        <h1>Details</h1>
+        
+       
+        <div id="content">
+              <div id="profile-info">
+                <img id="profile-image" src="../img/patient.jpg">
+                <h3 id="profile-name">Gabriella Becker</h3>
+                <span id="profile-description">
+                    Room 113
+                </span>
+            </div>
+
+            <ion-list>
+                <a class="item" ng-click="notifyAlert()">
+                    <button class="button button-block button-balanced">
+                        Notify
+                    </button>
+                </a>
+
+                <a class="item item-text-wrap   item-icon-right" style="align-content:center">                    
+                    <h2>Phone : 214-273-3746</h2>                  
+                    
+                </a>
+                <a class="item item-text-wrap  item-icon-right" href="">                    
+                    <h2>Relationship : Caregiver</h2>                    
+                    <i class="icon ion-chevron-right icon-accessory"></i>
+                </a>
+                <a class="item item-text-wrap   item-icon-right" href="">
+                    <h2>Other Info : Hired 2 Wks Ago</h2>
+                    <i class="icon ion-chevron-right icon-accessory"></i>
+                </a>
+                <a class="item item-text-wrap   item-icon-right" href="">
+                    <h2>Notifications</h2>
+                    <i class="icon ion-chevron-right icon-accessory"></i>
+                </a>
+
+                <div class="button-bar item">
+                    <a class="button button-balanced">Update</a>
+                    <a class="button">Locate/Call</a>                    
+                </div>
+               
+            </ion-list>
+        </div>
+        <!--
+        </div>-->
     </ion-content>
+
 </ion-view>

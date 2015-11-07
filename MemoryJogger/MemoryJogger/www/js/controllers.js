@@ -105,4 +105,15 @@ angular.module('starter.controllers', [])
         });
       }
     })
+
+
+   .controller('patientDetailsCtrl', function ($scope, $ionicPopup, $ionicPlatform, $state) {
+       $scope.notifyAlert = function () {
+           $ionicPopup.alert({
+               title: "Memory Jogger",
+               content: "Notification Successfully Sent!!!"
+           })
+               
+       };
+   })
 ;
