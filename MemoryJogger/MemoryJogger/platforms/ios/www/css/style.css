@@ -1,0 +1,252 @@
+/* 
+	Custom Fonts 
+*/
+@font-face {
+  font-family: 'avenir';
+  src: url('../fonts/avenir-book.eot');
+  src: url('../fonts/avenir-book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/avenir-book.woff2') format('woff2'),
+       url('../fonts/avenir-book.woff') format('woff'),
+       url('../fonts/avenir-book.ttf') format('truetype'),
+       url('../fonts/avenir-book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'avenir-light';
+  src: url('../fonts/avenir-light.eot');
+  src: url('../fonts/avenir-light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/avenir-light.woff2') format('woff2'),
+       url('../fonts/avenir-light.woff') format('woff'),
+       url('../fonts/avenir-light.ttf') format('truetype'),
+       url('../fonts/avenir-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'avenir', sans-serif;
+}
+
+/* Hide scrolling bar */
+.scroll-bar-indicator { 
+  display: none;
+}
+
+/* 
+  Menu Styles 
+*/
+.menu .bar-header .top_menu {
+  margin-top: 1.5em;
+}
+
+.top_menu {
+  width: 92%;
+  margin: 0 auto;
+}
+.top_menu .menu_link {
+  float: left;
+  margin-right: 11em;
+  width: 3.8em;
+}
+.top_menu .menu_link:last-child  {
+  margin-right: 0px;
+}
+a.item-content {
+  font-family: 'avenir', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #bcbcd4 !important;
+  margin-top: .1em;
+}
+.menu_link a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+.menu_link a i {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+  opacity: .5;
+  margin-bottom: .4em;
+  color: #aaaacd;
+}
+.menu .bar-header .menu_link i {
+  font-size: 2.5em;
+  color: #aaaacd;
+  opacity: .5;
+}
+.menu_link img {
+  border-radius: 70px;
+  width: 80%;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+/*
+	Modified Ionic Styles
+*/
+.menu {
+	background: #7271ab url(../img/nav_bg.png) no-repeat;
+}
+#menu_wrapper .item,
+#menu_wrapper .item-complex .item-content, 
+#menu_wrapper .item-radio .item-content,
+#menu_wrapper .bar.bar-stable,
+#menu_wrapper .title {
+	background: none;
+	border: none;
+	border-style: none;
+	color: #fff;
+}
+#menu_wrapper h1.title {
+	font-family: 'avenir', sans-serif;
+	font-style: 22px;
+}
+.bar.bar-stable.bar-footer {
+  height: 6em;
+}
+.list {
+  margin-top: 3em;
+}
+
+.item-avatar i:first-child, .item-avatar .item-img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 36px;
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+    border-radius: 4px; }
+.image-home_image
+{
+    background-size: cover;
+    max-width: 100%; 
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.image-home_bg
+{
+    background: url('../img/homeBG.jpg') no-repeat center center;
+    background-size: cover;
+    max-width: 100%; 
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+.background.scroll-content{ 
+background: url('../img/homeBG.jpg') no-repeat; 
+background-size: cover; 
+background-position: center; 
+margin: auto; 
+z-index: 2; 
+}
+
+.my-font:before,
+.my-font{
+  font-size:13px !important;
+  display:block !important;
+}
+.my-fontLive:before,
+.my-fontLive{
+  font-size:18px !important;
+  display:block !important;
+}
+#profile-bg {
+        position: fixed;
+        left: 0;
+        top: 44px;
+        width: 100%;
+        height: 100px;
+
+
+   /*     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/94311/bg.jpg') no-repeat transparent;*/
+        background-size: 100%;
+        background-position: 50% 20%;
+
+        text-align: center;
+      }
+
+      #content {
+        position: relative;
+        margin-top: 100px;
+        background-color: white;
+        /*background: url('../img/homeBG.jpg') no-repeat transparent;*/
+        box-shadow: 0px -1px 10px rgba(0,0,0,0.4);
+        padding-top: 100px;
+      }
+
+      #profile-info {
+        position: absolute;
+        top: -95px;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        /*background: url('../img/homeBG.jpg') no-repeat transparent;*/
+      }
+      #profile-name {
+        color: #444;
+        font-size: 20px;
+      }
+      #profile-description {
+        font-size: 15px;
+        color: #888;
+      }
+      #profile-description a {
+        color: #888;
+      }
+
+      #profile-image {
+        display: block;
+        border-radius: 100px;
+        border: 1px solid #fff;
+        width: 128px;
+        height: 128px;
+        margin: 30px auto 0;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+      }
+
+      .list-item-content {
+        padding: 5px;
+      }
+
+      .list-item {
+        color: #666666;
+      }
+
+      .post {
+        color: #444;
+      }
+
+      .post-time {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 11px;
+        color: #888;
+      }
+
+      .post-profile-image {
+        display: inline-block;
+        vertical-align: top;
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+      }
+      .post-options {
+        position: absolute;
+        font-size: 16px;
+        right: 5px;
+        bottom: 5px;
+        color: #888;
+      }

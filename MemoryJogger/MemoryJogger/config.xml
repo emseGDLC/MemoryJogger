@@ -92,7 +92,7 @@
   </platform>
   <vs:platformSpecificValues>
     <vs:platformSpecificWidget platformName="windows" version="1.0.0.0" id="emse.memory.jogger">
-      <vs:name>Memory Jogger</vs:name>
+      <vs:name>MemoryJogger</vs:name>
     </vs:platformSpecificWidget>
   </vs:platformSpecificValues>
   <preference name="android-minSdkVersion" value="10" />

@@ -1,0 +1,35 @@
+﻿<ion-view view-title="New Request">
+    <ion-content padding="scroll-bg" has-header="false">
+
+        <div class="list list-inset positive">
+           
+                
+              
+            <div class="item item-body">
+                <img id="profile-imageB" src="../img/patient.jpg">
+                <h1>Medication Request</h1>
+                <p>
+                    Request to come over at 6:00pm. <br/>
+                    Please replace the mattress <br/>
+                    Other Details here
+                </p>
+  
+
+            </div>
+            <ion-item class="item" ng-controller="patientDetailsCtrl" ng-click="notifyAlert()">
+                <button class="button button-block button-balanced">
+                    Request
+                </button>
+            </ion-item>
+
+            <div class="item tabs tabs-secondary tabs-icon-left assertive" ng-click="closeModal()">
+
+                <a class="tab-item" ng-click="closeModal()">
+                    <i class="icon ion-ios-close-outline"></i>
+                    Close
+                </a>
+
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
