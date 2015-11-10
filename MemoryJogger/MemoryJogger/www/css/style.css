@@ -5,7 +5,7 @@
   font-family: 'avenir';
   src: url('../fonts/avenir-book.eot');
   src: url('../fonts/avenir-book.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/avenir-book.woff2') format('woff2'),
+       /*url('../fonts/avenir-book.woff2') format('woff2'),*/
        url('../fonts/avenir-book.woff') format('woff'),
        url('../fonts/avenir-book.ttf') format('truetype'),
        url('../fonts/avenir-book.svg') format('svg');
@@ -16,7 +16,7 @@
   font-family: 'avenir-light';
   src: url('../fonts/avenir-light.eot');
   src: url('../fonts/avenir-light.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/avenir-light.woff2') format('woff2'),
+       /*url('../fonts/avenir-light.woff2') format('woff2'),*/
        url('../fonts/avenir-light.woff') format('woff'),
        url('../fonts/avenir-light.ttf') format('truetype'),
        url('../fonts/avenir-light.svg') format('svg');
