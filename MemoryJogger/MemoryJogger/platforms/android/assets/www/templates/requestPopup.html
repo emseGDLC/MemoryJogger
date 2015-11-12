@@ -5,9 +5,9 @@
            
                 
               
-            <div class="item item-body">
+            <div class="item item-body" align="center">
                 <img id="profile-imageB" src="../img/patient.jpg">
-                <h1>Medication Request</h1>
+                <h2>Medication Request</h2>
                 <p>
                     Request to come over at 6:00pm. <br/>
                     Please replace the mattress <br/>
@@ -16,7 +16,7 @@
   
 
             </div>
-            <ion-item class="item" ng-controller="patientDetailsCtrl" ng-click="notifyAlert()">
+            <ion-item class="item" ng-controller="patientDetailsCtrl" ng-click="notifyAlert();closeModal()">
                 <button class="button button-block button-balanced">
                     Request
                 </button>
