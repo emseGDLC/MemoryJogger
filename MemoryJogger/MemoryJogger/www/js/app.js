@@ -76,14 +76,41 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
       }
   })
-    .state('app.settings', {
-        url: '/settings',
-        views: {
-            'menuContent': {
-                templateUrl: 'templates/settings.html'
-            }
-        }    
-  });
+    //.state('app.settings', {
+    //    url: '/settings',
+    //    views: {
+    //        'menuContent': {
+    //            templateUrl: 'templates/settings.html'
+    //        }
+    //    }    
+    //})
+      // setup an abstract state for the tabs directive
+ .state('settings', {
+     url: "/settings",
+     abstract: true,
+     templateUrl: "templates/settings.html"
+ })
+
+ // Each tab has its own nav history stack:
+
+ .state('settings.alerts', {
+     url: '/alerts',
+     views: {
+         'settings-alerts': {
+             templateUrl: 'templates/tab-alerts.html'
+         }
+     }
+ })
+
+ .state('settings.reminders', {
+     url: '/reminders',
+     views: {
+         'settings-reminders': {
+             templateUrl: 'templates/tab-reminders.html'
+         }
+     }
+ })
+    ;
   // if none of the above states are matched, use this as the fallback
 $urlRouterProvider.otherwise('/app/home');
 });

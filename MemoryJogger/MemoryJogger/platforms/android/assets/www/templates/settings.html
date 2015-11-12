@@ -1,5 +1,18 @@
-﻿<ion-view view-title="Settings">
-    <ion-content>
-        <h1>Settings</h1>
-    </ion-content>
-</ion-view>
+﻿
+        
+        <ion-tabs class="tabs-top">
+
+
+            <!-- Alerts Tab -->
+            <ion-tab title="Alerts" ui-sref="settings.alerts">
+                <ion-nav-view name="settings-alerts"></ion-nav-view>
+            </ion-tab>
+
+
+            <!-- Reminders Tab -->
+            <ion-tab title="Reminders" ui-sref="settings.reminders">
+                <ion-nav-view name="settings-reminders"></ion-nav-view>
+            </ion-tab>          
+
+
+        </ion-tabs>
