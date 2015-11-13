@@ -97,7 +97,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
      url: '/alerts',
      views: {
          'settings-alerts': {
-             templateUrl: 'templates/tab-alerts.html'
+             templateUrl: 'templates/tabAlerts.html'
          }
      }
  })
@@ -106,7 +106,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
      url: '/reminders',
      views: {
          'settings-reminders': {
-             templateUrl: 'templates/tab-reminders.html'
+             templateUrl: 'templates/tabReminders.html'
          }
      }
  })
