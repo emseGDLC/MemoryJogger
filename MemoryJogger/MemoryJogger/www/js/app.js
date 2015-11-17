@@ -76,36 +76,36 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
       }
   })
-    //.state('app.settings', {
-    //    url: '/settings',
-    //    views: {
-    //        'menuContent': {
-    //            templateUrl: 'templates/settings.html'
-    //        }
-    //    }    
-    //})
+    .state('app.settings', {
+        url: '/settings',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/settings.html'
+            }
+        }    
+    })
       // setup an abstract state for the tabs directive
- .state('settings', {
-     url: "/settings",
-     abstract: true,
-     templateUrl: "templates/settings.html"
- })
+ //.state('settings', {
+ //    url: "/settings",
+ //    abstract: true,
+ //    templateUrl: "templates/settings.html"
+ //})
 
- // Each tab has its own nav history stack:
+ //// Each tab has its own nav history stack:
 
- .state('settings.alerts', {
-     url: '/alerts',
+ .state('app.alertsSettings', {
+     url: '/alertsSettings',
      views: {
-         'settings-alerts': {
+         'app-alerts': {
              templateUrl: 'templates/tabAlerts.html'
          }
      }
  })
 
- .state('settings.reminders', {
-     url: '/reminders',
+ .state('app.remindersSettings', {
+     url: '/remindersSettings',
      views: {
-         'settings-reminders': {
+         'app-reminders': {
              templateUrl: 'templates/tabReminders.html'
          }
      }
